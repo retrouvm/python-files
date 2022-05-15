@@ -34,7 +34,7 @@ l=[10,20,30,40,50,60,70,80]
 print(l)
 
 l.remove(20) #removes value (20) from list (l)
-print("after removing 20", l)
+print(l)
 
 l.pop() #pops off->removes value at the end of the list
 print(l)
@@ -42,9 +42,26 @@ print(l)
 l.pop(2) #pops off->removes value at index 2 from the list
 print(l)
 
-del 1[1] #delete value at index 1
+del l[1] #delete value at index 1
 print(l)
 
 del l[0:2] #delete values from indexes 0 to 2 minus 1
 #another example would be, del l[0:0]
+print(l, "\n")
+################################################################################################################
+
+################################################################################################################
+#general purpose functions
+l=[10,40,20,50]
 print(l)
+
+print(max(l)) #maximum value in list
+
+print(min(l)) #minimum value in list
+
+print(sum(l)) #summation of values within list
+l.reverse() #reverse list
+print(l)
+l.sort() #sort list in ascending order
+print(l,"\n") 
+################################################################################################################
