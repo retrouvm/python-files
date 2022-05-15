@@ -35,3 +35,16 @@ print(l)
 
 l.remove(20) #removes value (20) from list (l)
 print("after removing 20", l)
+
+l.pop() #pops off->removes value at the end of the list
+print(l)
+
+l.pop(2) #pops off->removes value at index 2 from the list
+print(l)
+
+del 1[1] #delete value at index 1
+print(l)
+
+del l[0:2] #delete values from indexes 0 to 2 minus 1
+#another example would be, del l[0:0]
+print(l)
