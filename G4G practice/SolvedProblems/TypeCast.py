@@ -5,7 +5,7 @@
 #Initial Template for Python 3
 
  # } Driver Code Ends
-#User function Template for python3
+#User function2 Template for python3
 
 def utility():
     #The line below takes the input
